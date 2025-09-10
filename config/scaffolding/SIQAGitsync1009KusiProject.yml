@@ -7,6 +7,15 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.siqagitsync1009kusi.integrations:reftest
+  packages:
+  - name: SIQAGitsync1009KusiProject
+    version: "1.0"
+- serviceName: project.siqagitsync1009kusi.referencedata:refdata
+  packages:
+  - name: SIQAGitsync1009KusiProject
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
